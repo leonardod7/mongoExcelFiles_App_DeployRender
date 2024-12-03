@@ -1,0 +1,148 @@
+@import "cores.css";
+
+body {
+    margin: 0; /* Remover margens padrão do body */
+    padding: 0; /* Remover preenchimento padrão do body */
+    background: #d9d9d9; /* Cor de fundo desejada para toda a página */
+    height: 100%;
+    font-family: "Arial Narrow", sans-serif;
+}
+
+.index-div-app {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    /*border: 4px solid gray;*/
+    background-color: #d9d9d9;
+    /*background: white;*/
+    padding: 10px;
+    z-index: 1; /* Mantém as divs abaixo do navbar */
+}
+
+
+/*Essa div recebe o conteúdo principal (que é uma outra div) e o footer*/
+.index-div-content {
+    /*border: 4px solid gold;*/
+    border: 4px solid #d9d9d9;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 60px;;
+    background-color: #d9d9d9;
+    /*margin-left: 8px;*/
+}
+
+#id-navbar {
+    position: fixed;
+    top: 0;
+    left: 25px; /* Alinha a navbar à esquerda */
+    width: calc(100% - 50px); /* Ajusta a largura da navbar para ocupar o restante da largura disponível */
+    z-index: 1000; /* Mantém a navbar acima de outros elementos */
+    padding: 0; /* Remover padding indesejado */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
+
+.consult-section-page {
+    display: flex;
+    width: 100%;
+    /*border: 4px solid red;*/
+    height: auto;
+    flex-direction: column;
+}
+
+.consult-section-page-1{
+    width: 100%;
+    height: 10% ;
+    /*border: 4px solid green;*/
+    border-style: inset;
+    border-radius: 10px;
+    border-bottom: 4px solid white;
+    /*border-bottom: 4px solid green; !* Primeira linha *!*/
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.consult-section-page-2{
+    width: auto;
+    height: auto;
+    /*border: 2px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    /*padding: 10px;*/
+}
+
+.consult-section-page-2-1 {
+    width: 340px;
+    height: auto;
+    /*border: 4px solid pink;*/
+    border-style: inset;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /*background-color: #f2f2f2;*/
+    background-color: #d9d9d9;
+    border-bottom: 4px solid white;
+}
+
+.consult-section-page-2-2 {
+    /*width: auto;*/
+    /*border: 4px solid black;*/
+    width: 100%;
+    height: auto;
+    border-style: inset;
+    border-radius: 10px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    display: flex;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 4px solid white;
+
+}
+
+
+h6 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-family: "Arial Narrow", sans-serif;
+}
+
+.custom-radio-items label {
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.custom-radio-items input {
+    margin-right: 10px;
+}
+
+.delete-button-cenarios {
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #f2f2f2;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.delete-button-cenarios {
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transição suave */
+}
+
+.delete-button-cenarios:hover {
+    cursor: pointer; /* Muda o ponteiro para "pointer" ao passar o mouse */
+    background-color: gold; /* Cor de fundo amarela */
+    border-color: gray; /* Borda vermelha */
+    color: gray; /* Mantém a cor do ícone */
+}
+
+
+
