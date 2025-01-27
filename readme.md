@@ -2,8 +2,8 @@
 # Sistema Inteligente para Gestão de Arquivos Excel no Mongo DB Atlas
 
 #### Aluno: [Leonardo dos Santos Costa](https://github.com/link_do_github)
-#### Orientadora: [Nome Sobrenome](https://github.com/link_do_github).
-#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
+#### Orientadora: [Felipe Borges](https://github.com/link_do_github).
+
 
 ---
 
@@ -63,7 +63,7 @@ A importação dos dados é realizada por meio de uma funcionalidade de *drag an
 
 - A aplicação deverá ser responsiva.
 - A aplicação deverá utilizar o banco de dados MongoDB Atlas.
-- A aplicação deverá ser hospedada no Heroku.
+- A aplicação deverá ser hospedada no Render usando DashTools.
 - O back-end da aplicação deverá ser desenvolvida em Python.
 - O front-end da aplicação deverá ser desenvolvida em Dash Plotly.
 - A aplicação deverá ser desenvolvida utilizando o framework Flask.
@@ -94,3 +94,15 @@ Matrícula: 221.100.157
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
+
+link do deploy: [Heroku](https://mongoexcelfiles-app-deployrender.onrender.com/home)
+
+link das instruções de deploy no youtube: [Youtube](https://www.youtube.com/watch?v=XWJBJoV5yww&t=18s)
+
+Anexos:
+
+![Tela Home](assets/img/foto_1.png)
+
+![Tela Consulta](assets/img/foto_2.png)
+
+![Tela Cadastro](assets/img/foto_3.png)
