@@ -1,4 +1,4 @@
-<!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
+
 # Sistema Inteligente para Gestão de Arquivos Excel no Mongo DB Atlas
 
 #### Aluno: [Leonardo dos Santos Costa](https://github.com/link_do_github)
@@ -9,7 +9,6 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-<!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
 
 - Fontes de Consulta: <!-- caso não aplicável, remover estas linhas -->
     - [Fonte 1](https://dash.plotly.com/dash-core-components/loading).
@@ -20,13 +19,11 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ### Resumo
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 
 Este projeto tem como objetivo o desenvolvimento de um sistema web interativo utilizando Dash e Plotly, que permite ao usuário gerenciar e visualizar cenários financeiros gerados a partir de uma modelagem econômica-financeira em Excel. A principal funcionalidade do sistema é fornecer uma plataforma acessível e eficiente para que o usuário tenha governança e segurança sobre os dados financeiros, transformando informações extraídas de planilhas em relatórios estruturados e dinâmicos
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
 
 This project develops a web-based system using Dash and Plotly to provide users with governance and management of financial scenarios generated from an economic-financial model created in Excel. The system allows users to upload financial reports, such as income statements, cash flows, and balance sheets, through a drag-and-drop functionality. The data is processed, stored in a MongoDB database, and presented in a structured format for easy visualization. This system aims to replace the need for direct database interaction, allowing users to access and interact with their financial data in a secure and user-friendly manner. The implementation leverages MongoDB's flexible data storage capabilities, although challenges such as limitations in the free-tier plan, latency, and performance issues were encountered. Despite these challenges, the system provides a robust solution for financial data management and governance, empowering users to make informed decisions based on their financial models.
 
