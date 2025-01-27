@@ -29,11 +29,11 @@ This project develops a web-based system using Dash and Plotly to provide users 
 
 ### 1. Introdução
 
-O sistema desenvolvido visa testar a hipótese de criarmos uma maneira mais eficiente e segura para gerenciar e visualizar cenários financeiros complexos de diferentes ativos de uma holding. Utilizando Dash e Plotly, a plataforma permite ao usuário importar dados financeiros, que são processados e organizados automaticamente a partir de uma máscara padronizada em modelos financeiros Excel. Essas máscarás de dados são salvos em um banco de dados MongoDB, tornando o processo de gestão e governaça das informações mais seguro.
+O sistema desenvolvido visa testar a hipótese de criarmos uma maneira mais eficiente e segura para gerenciar e visualizar cenários financeiros complexos de diferentes ativos de uma holding. Utilizando Dash e Plotly, a plataforma permite ao usuário importar dados financeiros, onde serão processados e organizados automaticamente a partir de uma máscara padronizada em formato Excel. Essas máscarás de dados serão salvas em um banco de dados MongoDB, tornando o processo de gestão e governança das informações mais seguro.
 
 ### 2. Modelagem
 
-A importação dos dados é realizada por meio de uma funcionalidade de *drag and drop*, o que torna o processo de integração de novos cenários econômicos muito mais simples e rápido. Após a importação, o algoritmo organiza os dados e os salva em um banco de dados MongoDB, facilitando posteriormente a consulta e a visualização. Devido ao acesso gratuito ao MongoDB Atlas, o algoritmo foi construído para respeitar indicadores de performance do Mongo DB Atlas, como por exemplo o Schema Anti-Patterns. Além disso, cabe ressaltar que devido ao tamanho dos arquivos em formato Excel, eles foram segregados em documentos menores para respeitar as regras de performance. 
+A importação dos dados é realizada por meio de uma funcionalidade de *drag and drop*, o que torna o processo de integração de novos cenários muito mais simples e rápido. Após a importação, o algoritmo organiza e salva os dados em um banco de dados MongoDB, facilitando posteriormente a consulta e a visualização. Devido ao acesso gratuito ao MongoDB Atlas, o algoritmo foi construído para respeitar indicadores de performance do Mongo DB Atlas, como por exemplo o Schema Anti-Patterns. Além disso, cabe ressaltar que devido ao tamanho dos arquivos em formato Excel, eles foram segregados em documentos menores para respeitar as regras de performance. 
 
 #### <font color=gray>2.1) Tecnologias Utilizadas:</font>
 
